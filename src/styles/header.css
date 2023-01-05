@@ -1,0 +1,19 @@
+header {
+  background-color: grey;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+.headerLogo {
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 50px;
+}

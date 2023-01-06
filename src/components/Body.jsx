@@ -1,12 +1,14 @@
 import "../styles/body.css";
-import UpperBody from "./subComponents/UpperBody";
-import LowerBody from "./subComponents/LowerBody";
+import BlogHeader from "./subComponents/BlogHeader";
+import BlogPosts from "./subComponents/BlogPosts";
+import { data } from "./../data";
 
 export default function Body() {
+  console.log(data);
   return (
     <main>
-      <UpperBody />
-      {/* <LowerBody /> */}
+      <BlogHeader />
+      <BlogPosts posts={data} />
     </main>
   );
 }

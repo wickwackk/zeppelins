@@ -1,5 +1,5 @@
 import "../styles/header.css";
-import "../styles/global.css";
+
 import SadZeppelins from "../imageComponents/SadZeppelins";
 
 export default function Header() {

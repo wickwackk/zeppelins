@@ -1,5 +1,4 @@
 import "./App.css";
-import "./styles/global.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Body from "./components/Body";
@@ -8,8 +7,8 @@ function App() {
   return (
     <body>
       <Header />
-      {/* <Body />
-      <Footer /> */}
+      <Body />
+      <Footer />
     </body>
   );
 }

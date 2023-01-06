@@ -1,0 +1,13 @@
+.blogHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blogHeaderLeft {
+  width: 40%;
+}
+
+.blogHeaderRight img {
+  height: 500px;
+}
